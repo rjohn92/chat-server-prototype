@@ -1,8 +1,4 @@
-**Structure**
-
----
-
-### **1\. Conceptual Roles**
+### **1\. Concepts**
 
 #### **A. Server**
 
@@ -312,17 +308,7 @@
 
   * #### Sends the received data back to the client (echo).
 
-#### 
 
-#### 
-
-## 
-
-## 
-
-## 
-
-## 
 
 ## **client.py**
 
