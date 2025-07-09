@@ -104,8 +104,7 @@ practical implementation:
 
   - Linux (Ubuntu or similar for host/dev; Raspberry Pi for ARM/embedded xposure)
 
-- **RE & Analysis Tools:  
-  **
+- **RE & Analysis Tools:**
 
   - Ghidra (reverse engineering/disassembly)
 
@@ -120,8 +119,7 @@ practical implementation:
 
   - Wireshark/tcpdump (traffic inspection)
 
-- **(Optionally, later) Virtualization/Segmentation:  
-  **
+- **(Optionally, later) Virtualization/Segmentation:**
 
   - Docker/LXC or QEMU for safe sandboxes
 
@@ -129,14 +127,12 @@ practical implementation:
 
 ## **5. Audience / Expected Skill Level**
 
-- **Primary:  
-  **
+- **Primary:**
 
   - Yourself: DevOps/SWE background, limited C/C++/assembly exposure,
     learning networking and low-level topics from scratch
 
-- **Secondary:  
-  **
+- **Secondary:**
 
   - Other new grads, career pivoters, or anyone seeking a rigorous CNO
     skill foundation with step-by-step justifications and no skipped
@@ -144,26 +140,22 @@ practical implementation:
 
 ## **7. Documentation Philosophy**
 
-- **Zero Assumptions:  
-  **
+- **Zero Assumptions:**
 
   - Every prerequisite (Linux basics, C toolchain, networking, Python,
     Ghidra install) is documented and justified
 
-- **Modular:  
-  **
+- **Modular:**
 
   - Each phase/feature stands alone and is checkpointed (so you can
     verify at every stage before layering complexity)
 
-- **Debuggable & Observable:  
-  **
+- **Debuggable & Observable:**
 
   - Every build/run step outputs something observable; debugging and
     inspection are built-in, not bolted on
 
-- **Open to Change:  
-  **
+- **Open to Change:**
 
   - This document is expected to evolve, reflect mistakes, lessons
     learned, and growing skill over time
@@ -172,15 +164,13 @@ practical implementation:
 
 ### **7.1. Home Network Placement**
 
-- **Risks:  
-  **
+- **Risks:**
 
   - Any server (even "harmless" code) could be accidentally vulnerable.
     If it’s on your main LAN, an exploit or misconfiguration could
     expose your devices.
 
-- **Recommendation (Best Practice):  
-  **
+- **Recommendation (Best Practice):**
 
   - **Option 1:** *Initial Dev/Testing*: Use localhost-only (127.0.0.1,
     not 0.0.0.0) for all socket binds to avoid external exposure.
@@ -189,8 +179,7 @@ practical implementation:
     home routers support guest networks, or you can use a cheap
     separate router).
 
-    - **How-To:  
-      **
+    - **How-To:**  
 
       - Create a **Virtual Local Area Network** (VLAN) on your router
         (if supported). A VLAN is a logical segmentation of a physical
@@ -202,8 +191,7 @@ practical implementation:
 
       - Connect the Raspberry Pi to a different router
 
-    - **Justification:  
-      **
+    - **Justification:**
 
       - Limits blast radius. If you accidentally expose something, only
         devices on that network are at risk.
