@@ -112,8 +112,7 @@ practical implementation:
 
   - hexdump, objdump, strace (inspection and tracing)
 
-- **Networking:  
-  **
+- **Networking:**
 
   - TCP sockets (IPv4 focus initially)
 
