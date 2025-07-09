@@ -7,8 +7,8 @@ Exploitation)**
 
 ## **2. Project Motivation: Why Build This?**
 
-**2.1. Industry Context:  
-** Modern CNO (Computer Network Operations) analysts and programmers are
+**2.1. Industry Context:** 
+Modern CNO (Computer Network Operations) analysts and programmers are
 expected to understand:
 
 - Low-level system programming (C, assembly, memory management)
@@ -20,8 +20,8 @@ expected to understand:
 
 - Real-world system vulnerabilities and mitigations
 
-**2.2. Learning by Building:  
-** Instead of abstract textbook theory, this project is a bottom-up
+**2.2. Learning by Building:** 
+Instead of abstract textbook theory, this project is a bottom-up
 practical implementation:
 
 - **Start:** Minimal, fully documented echo server (Python then C) to
@@ -36,14 +36,14 @@ practical implementation:
 
 ## **3. What is a Chat/Echo Server?**
 
-- **Definition:  
-  ** An **echo server** is a minimal network service that listens for
+- **Definition:**   
+  An **echo server** is a minimal network service that listens for
   connections, receives messages from clients, and sends the exact
   same message back. A **chat server** extends this by supporting
   communication between multiple clients, allowing users to send
   messages that other users can receive.
 
-- **Components:  
+- **Components:**  
 
   - **Server:** Listens for connections on a network socket, receives
     data, and manages connected clients.
@@ -55,7 +55,7 @@ practical implementation:
 
   - **Protocol:** Rules for how data is formatted and exchanged (usually simple: raw text or binary messages).
 
-- **Why it matters:  
+- **Why it matters:**  
 
   - It is the canonical “hello world” for network programming—forcing
     you to understand sockets, processes/threads, and memory.
