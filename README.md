@@ -94,7 +94,7 @@ practical implementation:
 
 ## **5. Tools and Technologies**
 
-- **Programming Languages: **
+- **Programming Languages:**
 
   - Python (for initial prototypes, reference implementations)
 
