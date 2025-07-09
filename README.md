@@ -129,7 +129,7 @@ practical implementation:
 
 - **Primary:**
 
-  - Yourself: DevOps/SWE background, limited C/C++/assembly exposure,
+  - Me: DevOps/SWE background, limited C/C++/assembly exposure,
     learning networking and low-level topics from scratch
 
 - **Secondary:**
